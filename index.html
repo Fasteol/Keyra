@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keyra</title>
+    <meta
+      name="description"
+      content="KEYRA K75: keyboard mekanik wireless 75% yang nyaman untuk mengetik seharian. Hot-swappable, tiga mode koneksi."
+    />
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
+            colors: {
+              cream: "#FAF7F2",
+              sand: "#F1ECE3",
+              line: "#E3DCCF",
+              ink: "#1F2937",
+              mute: "#5B6472",
+              brand: { DEFAULT: "#0F766E", dark: "#0B5D57", soft: "#DDF1EE" },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 72px;
+      }
+      details > summary {
+        list-style: none;
+        cursor: pointer;
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+      details[open] .pl {
+        transform: rotate(45deg);
+      }
+      .pl {
+        transition: transform 0.2s;
+      }
+    </style>
+  </head>
+  <body class="font-sans text-ink bg-cream antialiased pb-20 md:pb-0">
+    <header
+      class="sticky top-0 z-40 bg-cream/90 backdrop-blur border-b border-line"
+    >
+      <div
+        class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between"
+      >
+        <a href="#" class="flex items-center gap-2 font-bold text-lg"
+          ><span
+            class="w-8 h-8 rounded-md bg-brand text-white grid place-items-center text-sm"
+            >K</span
+          >KEYRA</a
+        >
+        <a href="#fitur" class="text-sm text-mute hover:text-ink"
+          >Informasi produk</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section
+        class="max-w-6xl mx-auto px-5 pt-10 pb-14 md:pt-16 md:pb-20 grid md:grid-cols-2 gap-10 items-center"
+      >
+        <div>
+          <p class="text-xs font-semibold text-brand mb-4">
+            KEYRA K75 / Keyboard mekanik wireless
+          </p>
+          <h1
+            class="text-4xl md:text-5xl font-semibold leading-[1.1] tracking-tight"
+          >
+            Mengetik lebih nyaman untuk pekerja dan gamer
+          </h1>
+          <p class="mt-5 text-mute text-base md:text-lg max-w-md">
+            Kenali KEYRA K75 dan pahami bagaimana keyboard mekanik 75% ini
+            menjawab kebutuhan Anda akan ketikan yang nyaman dan senyap di meja
+            kerja.
+          </p>
+          <div class="mt-7 flex flex-wrap items-center gap-5">
+            <a
+              href="#pesan"
+              class="bg-brand hover:bg-brand-dark text-white font-medium px-7 py-3.5 rounded-md transition"
+              >Pesan sekarang</a
+            >
+            <a
+              href="#manfaat"
+              class="text-sm underline underline-offset-4 hover:text-brand"
+              >Lihat manfaat</a
+            >
+          </div>
+        </div>
+        <figure>
+          <div class="rounded-xl bg-sand border border-line p-5 md:p-8">
+            <svg
+              id="kb"
+              viewBox="0 0 320 130"
+              class="w-full h-auto"
+              role="img"
+              aria-label="Ilustrasi keyboard KEYRA K75"
+            ></svg>
+          </div>
+          <figcaption class="mt-2 text-xs text-mute">
+            KEYRA K75 · Layout 75%, warna Cream &amp; Teal
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- MANFAAT -->
+      <section id="manfaat" class="bg-sand py-14 md:py-20">
+        <div class="max-w-6xl mx-auto px-5">
+          <p class="text-[11px] tracking-widest text-mute">MANFAAT</p>
+          <h2 class="mt-2 text-3xl font-bold tracking-tight">
+            Apa artinya bagi Anda?
+          </h2>
+          <p class="mt-2 text-mute">
+            Mulai dari kebutuhan Anda, lalu lihat nilai yang ditawarkan produk.
+          </p>
+          <div class="mt-8 grid md:grid-cols-3 gap-4">
+            <article class="bg-white border border-line rounded-lg p-6">
+              <span class="block w-5 h-0.5 bg-brand mb-4"></span>
+              <h3 class="text-lg font-semibold">Nyaman berjam-jam</h3>
+              <p class="mt-2 text-sm text-mute">
+                Dudukan gasket membuat ketikan terasa lembut, sehingga jari
+                tidak cepat lelah saat bekerja atau bermain lama.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-6">
+              <span class="block w-5 h-0.5 bg-brand mb-4"></span>
+              <h3 class="text-lg font-semibold">Suara halus, tidak berisik</h3>
+              <p class="mt-2 text-sm text-mute">
+                Lapisan peredam menghasilkan bunyi ketik yang dalam dan bersih,
+                aman dipakai di kantor maupun di rumah.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-6">
+              <span class="block w-5 h-0.5 bg-brand mb-4"></span>
+              <h3 class="text-lg font-semibold">
+                Satu keyboard, banyak perangkat
+              </h3>
+              <p class="mt-2 text-sm text-mute">
+                Pindah antara laptop, PC, dan tablet hanya dengan satu tombol
+                tanpa memasangkan ulang.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BUKTI SOSIAL -->
+      <section class="py-14 md:py-20">
+        <div class="max-w-6xl mx-auto px-5">
+          <p class="text-[11px] tracking-widest text-mute">BUKTI SOSIAL</p>
+          <h2 class="mt-2 text-3xl font-bold tracking-tight">
+            Kenali pengalaman di balik produk
+          </h2>
+          <p class="mt-2 text-mute">Mitra dan testimoni pengguna KEYRA K75.</p>
+          <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div
+              class="h-14 rounded-md bg-sand border border-line grid place-items-center text-sm text-mute font-medium"
+            >
+              Nusantara Tech
+            </div>
+            <div
+              class="h-14 rounded-md bg-sand border border-line grid place-items-center text-sm text-mute font-medium"
+            >
+              Pixelworks Studio
+            </div>
+            <div
+              class="h-14 rounded-md bg-sand border border-line grid place-items-center text-sm text-mute font-medium"
+            >
+              Kodekita Academy
+            </div>
+            <div
+              class="h-14 rounded-md bg-sand border border-line grid place-items-center text-sm text-mute font-medium"
+            >
+              Raya Digital
+            </div>
+          </div>
+          <!-- DATA CONTOH (nama mitra & pelanggan fiktif). Ganti dengan data asli jika dipakai untuk bisnis nyata. -->
+          <blockquote
+            class="mt-4 bg-white border border-line rounded-lg p-6 md:p-8"
+          >
+            <p class="text-[11px] tracking-widest text-mute">
+              TESTIMONI PENGGUNA
+            </p>
+            <p class="mt-4 text-xl md:text-2xl">
+              “Suaranya enak dan Bluetooth-nya stabil. Sekarang saya pakai di
+              laptop kantor dan PC rumah.”
+            </p>
+            <footer class="mt-5 flex items-center gap-3">
+              <span
+                class="w-10 h-10 rounded-full bg-brand-soft text-brand grid place-items-center text-sm font-semibold"
+                >R</span
+              ><span class="text-sm"
+                ><strong class="block">Rizky Aditya</strong
+                ><span class="text-mute text-xs"
+                  >UI Designer, Jakarta</span
+                ></span
+              >
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- FITUR -->
+      <section id="fitur" class="bg-sand py-14 md:py-20">
+        <div class="max-w-6xl mx-auto px-5">
+          <p class="text-[11px] tracking-widest text-mute">FITUR</p>
+          <h2 class="mt-2 text-3xl font-bold tracking-tight">
+            Lihat detail sebelum memutuskan
+          </h2>
+          <p class="mt-2 text-mute">
+            Tinjau fungsi produk dan hal yang perlu Anda ketahui saat
+            menggunakannya.
+          </p>
+          <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <article class="bg-white border border-line rounded-lg p-5">
+              <h3 class="font-semibold">Hot-swappable</h3>
+              <p class="mt-2 text-sm text-mute">
+                Ganti switch kapan saja tanpa solder, cukup tarik dan pasang.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-5">
+              <h3 class="font-semibold">Tiga mode koneksi</h3>
+              <p class="mt-2 text-sm text-mute">
+                Bluetooth 5.1 untuk 3 perangkat, 2.4G, atau kabel USB-C.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-5">
+              <h3 class="font-semibold">Pilihan switch</h3>
+              <p class="mt-2 text-sm text-mute">
+                Tersedia Linear, Tactile, dan Clicky sesuai gaya mengetik Anda.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-5">
+              <h3 class="font-semibold">Kompatibilitas</h3>
+              <p class="mt-2 text-sm text-mute">
+                Mendukung Windows, macOS, Linux, Android, dan iPadOS.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-5">
+              <h3 class="font-semibold">Baterai 4000 mAh</h3>
+              <p class="mt-2 text-sm text-mute">
+                Cukup untuk sekitar seminggu pemakaian harian.
+              </p>
+            </article>
+            <article class="bg-white border border-line rounded-lg p-5">
+              <h3 class="font-semibold">Keycaps PBT</h3>
+              <p class="mt-2 text-sm text-mute">
+                Tebal, tahan lecet, dan tidak mengkilap seiring waktu.
+              </p>
+            </article>
+          </div>
+          <div
+            class="mt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+          >
+            <div>
+              <p class="font-semibold text-lg">
+                Sudah menemukan yang Anda butuhkan?
+              </p>
+              <p class="text-xs text-mute mt-1">
+                Lanjutkan setelah memahami manfaat dan detail KEYRA K75.
+              </p>
+            </div>
+            <a
+              href="#pesan"
+              class="bg-brand hover:bg-brand-dark text-white font-medium px-7 py-3.5 rounded-md text-center transition"
+              >Pesan sekarang</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="py-14 md:py-20">
+        <div
+          class="max-w-6xl mx-auto px-5 grid md:grid-cols-[1fr_2fr] gap-8 md:gap-16"
+        >
+          <div>
+            <p class="text-[11px] tracking-widest text-mute">PERTANYAAN UMUM</p>
+            <h2 class="mt-2 text-3xl font-bold tracking-tight">
+              Masih ada yang ingin Anda pastikan?
+            </h2>
+            <p class="mt-3 text-sm text-mute">
+              Pahami hal penting sebelum mengambil langkah berikutnya.
+            </p>
+          </div>
+          <div class="border-t border-line">
+            <details class="border-b border-line py-5" open>
+              <summary class="flex justify-between gap-4 font-medium">
+                Apakah produk ini sesuai kebutuhan saya?<span
+                  class="pl text-xl leading-none text-brand"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm text-mute">
+                Cocok untuk Anda yang mengetik banyak, baik untuk kerja, kuliah,
+                maupun gaming. Layout 75% ringkas, tetapi tetap memiliki tombol
+                panah dan F-row.
+              </p>
+            </details>
+            <details class="border-b border-line py-5">
+              <summary class="flex justify-between gap-4 font-medium">
+                Apa saja yang termasuk di dalamnya?<span
+                  class="pl text-xl leading-none text-brand"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm text-mute">
+                Keyboard K75, kabel USB-C, receiver 2.4G, keycap puller, switch
+                puller, dan buku panduan. Alas pergelangan tangan tidak
+                termasuk.
+              </p>
+            </details>
+            <details class="border-b border-line py-5">
+              <summary class="flex justify-between gap-4 font-medium">
+                Berapa biaya yang perlu saya siapkan?<span
+                  class="pl text-xl leading-none text-brand"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm text-mute">
+                Rp 1.499.000 sudah termasuk ongkir ke seluruh Indonesia. (Contoh
+                harga, sesuaikan dengan harga asli mitra.)
+              </p>
+            </details>
+            <details class="border-b border-line py-5">
+              <summary class="flex justify-between gap-4 font-medium">
+                Apa yang terjadi setelah saya memesan?<span
+                  class="pl text-xl leading-none text-brand"
+                  >+</span
+                >
+              </summary>
+              <p class="mt-3 text-sm text-mute">
+                Anda mengisi formulir, lalu tim kami menghubungi lewat WhatsApp
+                untuk konfirmasi dan pembayaran. Pesanan dikirim dalam 1–2 hari
+                kerja.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA + FORM -->
+      <section id="pesan" class="bg-brand text-white py-14 md:py-20">
+        <div
+          class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-10 items-start"
+        >
+          <div>
+            <p class="text-[11px] tracking-widest text-white/70">
+              LANGKAH BERIKUTNYA
+            </p>
+            <h2 class="mt-2 text-3xl md:text-4xl font-bold tracking-tight">
+              Siap melangkah dengan KEYRA K75?
+            </h2>
+            <p class="mt-3 text-white/80">
+              Jika sesuai dengan kebutuhan Anda, isi formulir di samping. Kami
+              akan menghubungi Anda untuk konfirmasi pesanan.
+            </p>
+          </div>
+          <div class="bg-white text-ink rounded-lg p-6 md:p-7">
+            <form id="orderForm" novalidate class="space-y-4">
+              <div>
+                <label for="nama" class="block text-sm font-medium mb-1"
+                  >Nama lengkap</label
+                ><input
+                  id="nama"
+                  name="nama"
+                  autocomplete="name"
+                  placeholder="Nama Anda"
+                  class="w-full border border-line rounded-md px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-brand"
+                />
+                <p class="err hidden text-xs text-red-600 mt-1">
+                  Nama wajib diisi.
+                </p>
+              </div>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="email" class="block text-sm font-medium mb-1"
+                    >Email</label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    placeholder="nama@email.com"
+                    class="w-full border border-line rounded-md px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-brand"
+                  />
+                  <p class="err hidden text-xs text-red-600 mt-1">
+                    Masukkan email yang valid.
+                  </p>
+                </div>
+                <div>
+                  <label for="wa" class="block text-sm font-medium mb-1"
+                    >No. WhatsApp</label
+                  ><input
+                    id="wa"
+                    name="wa"
+                    type="tel"
+                    inputmode="tel"
+                    autocomplete="tel"
+                    placeholder="08xxxxxxxxxx"
+                    class="w-full border border-line rounded-md px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-brand"
+                  />
+                  <p class="err hidden text-xs text-red-600 mt-1">
+                    Nomor tidak valid (9–14 digit).
+                  </p>
+                </div>
+              </div>
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="switch" class="block text-sm font-medium mb-1"
+                    >Jenis switch</label
+                  ><select
+                    id="switch"
+                    name="switch"
+                    class="w-full border border-line rounded-md px-3 py-2.5 bg-white"
+                  >
+                    <option>Linear</option>
+                    <option>Tactile</option>
+                    <option>Clicky</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="qty" class="block text-sm font-medium mb-1"
+                    >Jumlah</label
+                  ><select
+                    id="qty"
+                    name="qty"
+                    class="w-full border border-line rounded-md px-3 py-2.5 bg-white"
+                  >
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label for="cat" class="block text-sm font-medium mb-1"
+                  >Alamat / catatan
+                  <span class="text-mute font-normal">(opsional)</span></label
+                ><textarea
+                  id="cat"
+                  name="cat"
+                  rows="3"
+                  class="w-full border border-line rounded-md px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-brand"
+                  placeholder="Alamat pengiriman atau pertanyaan Anda"
+                ></textarea>
+              </div>
+              <button
+                class="w-full bg-ink hover:bg-black text-white font-medium py-3.5 rounded-md transition"
+              >
+                Kirim &amp; lanjut via WhatsApp
+              </button>
+              <p
+                id="ok"
+                class="hidden text-sm text-green-800 bg-green-50 border border-green-200 rounded-md p-3"
+                role="status"
+              >
+                Terima kasih! Jika WhatsApp tidak terbuka otomatis,
+                <a id="fb" target="_blank" rel="noopener" class="underline"
+                  >klik di sini</a
+                >.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-8 text-center text-xs text-mute">
+      © <span id="yr"></span> KEYRA. Semua hak dilindungi.
+    </footer>
+
+    <div
+      id="sticky"
+      class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-cream border-t border-line p-3 transition-transform"
+    >
+      <a
+        href="#pesan"
+        class="block text-center bg-brand text-white font-medium py-3.5 rounded-md"
+        >Pesan sekarang</a
+      >
+    </div>
+
+    <script>
+      const CONFIG = { whatsappNumber: "6285795760948", brand: "KEYRA" }; // ganti nomor WA mitra: format 62..., tanpa + atau 0
+      document.getElementById("yr").textContent = new Date().getFullYear();
+
+      // Ilustrasi keyboard sederhana (SVG)
+      (function () {
+        const spec = [
+          [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1],
+          [1.5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.5, 1],
+          [1.75, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2.25, 1],
+          [2.25, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.75, 1, 1],
+          [1.25, 1.25, 1.25, 6.25, 1.25, 1.25, 1, 1, 1],
+        ];
+        const u = 17.5,
+          g = 2,
+          x0 = 10,
+          y0 = 10;
+        let s = `<rect x="0" y="0" width="320" height="130" rx="10" fill="#1F2937"/>`;
+        spec.forEach((r, ri) => {
+          let x = x0;
+          r.forEach((w, ci) => {
+            const wd = w * u - g,
+              mod = w !== 1 || ri === 0;
+            const acc = ri === 3 && w === 2.25;
+            s += `<rect x="${x}" y="${y0 + ri * 18}" width="${wd}" height="${u - g - 1}" rx="2.5" fill="${acc ? "#0F766E" : mod ? "#D9D2C3" : "#FAF7F2"}"/>`;
+            x += w * u;
+          });
+        });
+        document.getElementById("kb").innerHTML = s;
+      })();
+
+      // CTA sticky mobile: sembunyi saat form terlihat
+      new IntersectionObserver(
+        ([e]) => {
+          document.getElementById("sticky").style.transform = e.isIntersecting
+            ? "translateY(100%)"
+            : "none";
+        },
+        { threshold: 0.1 },
+      ).observe(document.getElementById("pesan"));
+
+      // Form
+      const form = document.getElementById("orderForm");
+      form.addEventListener("submit", (ev) => {
+        ev.preventDefault();
+        const f = form.elements,
+          ph = f.wa.value.replace(/\D/g, "");
+        const c = [
+          [f.nama, f.nama.value.trim().length < 2],
+          [f.email, !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.email.value.trim())],
+          [f.wa, ph.length < 9 || ph.length > 14],
+        ];
+        c.forEach(([el, bad]) =>
+          el.parentElement
+            .querySelector(".err")
+            .classList.toggle("hidden", !bad),
+        );
+        const bad = c.find((x) => x[1]);
+        if (bad) {
+          bad[0].focus();
+          return;
+        }
+        const t = `Halo ${CONFIG.brand}, saya ingin memesan KEYRA K75.\nNama: ${f.nama.value.trim()}\nEmail: ${f.email.value.trim()}\nWhatsApp: ${f.wa.value.trim()}\nSwitch: ${f.switch.value}\nJumlah: ${f.qty.value}\nAlamat/catatan: ${f.cat.value.trim() || "-"}`;
+        const u = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(t)}`;
+        document.getElementById("fb").href = u;
+        document.getElementById("ok").classList.remove("hidden");
+        window.open(u, "_blank", "noopener");
+      });
+    </script>
+  </body>
+</html>
