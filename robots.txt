@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://keyra-fasteol.netlify.app/sitemap.xml
